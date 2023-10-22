@@ -13,3 +13,4 @@ data <- read.csv('data.csv')
 
 # calculate summary statistics --------------------------------
 lapply(data, summary)
+age_sum <- sum(data$age)
